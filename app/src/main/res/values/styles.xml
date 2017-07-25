@@ -1,0 +1,53 @@
+<resources>
+
+
+    <style name="Theme.AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Main theme colors -->
+        <!--   your app branding color for the app bar -->
+        <item name="colorPrimary">@color/google_blue</item>
+        <!--   darker variant for the status bar and contextual app bars -->
+        <item name="colorPrimaryDark">@color/google_blue</item>
+        <!--   theme UI controls like checkboxes and text fields -->
+        <item name="colorAccent">@color/google_blue</item>
+        <item name="android:windowBackground">@color/potato_white</item>
+        <item name="android:windowContentOverlay">@color/potato_white</item>
+
+
+    </style>
+
+    <style name="Widget.CardContent" parent="android:Widget">
+        <item name="android:paddingLeft">16dp</item>
+        <item name="android:paddingRight">16dp</item>
+        <item name="android:paddingTop">24dp</item>
+        <item name="android:paddingBottom">24dp</item>
+        <item name="android:orientation">vertical</item>
+    </style>
+
+    <style name="Theme.AppThemeTrans" parent="Theme.AppTheme">
+        <item name="android:windowBackground">@color/potato_trans</item>
+        <item name="android:windowContentOverlay">@color/potato_trans</item>
+        <item name="android:windowIsTranslucent">true</item>
+    </style>
+    <style name="item_bt_blue">
+        <item name="android:background">@drawable/selector_bg_blue_with_disable</item>
+        <item name="android:layout_height">32dp</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:paddingLeft">5dp</item>
+        <item name="android:paddingRight">5dp</item>
+        <item name="android:textSize">14sp</item>
+        <item name="android:textColor">@color/potato_white</item>
+    </style>
+
+    <style name="BottomButton">
+        <item name="android:layout_height">40dp</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_marginBottom">10dp</item>
+        <item name="android:layout_marginLeft">20dp</item>
+        <item name="android:layout_marginRight">20dp</item>
+        <item name="android:layout_marginTop">10dp</item>
+        <item name="android:textSize">18sp</item>
+        <item name="android:background">@drawable/selector_bg_blue_with_disable</item>
+        <item name="android:textColor">@color/potato_white</item>
+
+    </style>
+</resources>
